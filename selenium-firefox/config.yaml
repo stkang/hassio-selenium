@@ -11,6 +11,7 @@ arch:
   - i386
 ingress: true
 ingress_port: 7900
+ingress_stream: true
 image: selenium/standalone-firefox
 timeout: 30
 panel_icon: mdi:web-box
