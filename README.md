@@ -1,0 +1,1 @@
+# Docker images for the Selenium Grid Server
