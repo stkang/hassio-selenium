@@ -11,6 +11,7 @@ arch:
 ingress: true
 ingress_port: 7900
 ingress_stream: true
+ingress_entry: vnc.html?autoconnect=true
 image: seleniarm/standalone-firefox
 timeout: 30
 panel_icon: mdi:web-box
