@@ -8,10 +8,10 @@ url: >-
 arch:
   - armhf
   - armv7
+hassio_api: true
 ingress: true
 ingress_port: 7900
-ingress_stream: true
-ingress_entry: vnc.html?autoconnect=true
+ingress_entry: vnc.html?autoconnect=true&path=api/hassio_ingress/seleniarm_chrome/websockify
 image: seleniarm/standalone-chrome
 timeout: 30
 panel_icon: mdi:web-box
