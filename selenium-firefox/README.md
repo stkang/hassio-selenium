@@ -1,0 +1,1 @@
+# Home Assistant Add-on: Docker Selenium Firefox

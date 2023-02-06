@@ -1,0 +1,24 @@
+---
+version: 4.8.0
+name: Selenium Edge
+slug: selenium_edge
+description: Selenium Grid Server for Home Assistant support.
+url: >-
+  https://github.com/SeleniumHQ/docker-selenium
+arch:
+  - aarch64
+  - amd64
+  - i386
+ingress: true
+ingress_port: 7900
+image: selenium/standalone-edge
+timeout: 30
+panel_icon: mdi:web-box
+init: false
+ports:
+  4444/tcp: 4444
+  7900/tcp: null
+ports_description:
+  4444/tcp: Your Web Driver
+  7900/tcp: noVNC to allow users inspect visually container activity with their browser
+startup: services
